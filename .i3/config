@@ -251,7 +251,7 @@ mode "$mode_system" {
 bar {
 	i3bar_command i3bar
 	#status_command i3status
-	position top
+	position bottom
 	status_command i3status --config ~/.i3status.conf
 
 ## please set your primary output first. Example: 'xrandr --output eDP1 --primary'

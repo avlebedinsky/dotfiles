@@ -1,0 +1,14 @@
+inoremap jj <ESC>
+
+set surround
+set commentary
+set multiple-cursors
+
+let mapleader = " "
+nnoremap <SPACE> <Nop>
+noremap <Leader>c "*y
+noremap <Leader>v "*p
+
+
+:map <Leader>r :action ReformatCode<CR>
+:map <Leader>s :action SaveAll<CR>
