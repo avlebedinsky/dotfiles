@@ -1,4 +1,5 @@
 # lav
+
 exec terminal -e 'setxkbmap -layout us,ru'
 exec terminal -e 'setxkbmap -option 'grp:alt_shift_toggle''
 
@@ -154,10 +155,10 @@ bindsym $mod+Ctrl+Left workspace prev
 # to display names or symbols instead of plain workspace numbers you can use
 # something like: set $ws1 1:mail
 #                 set $ws2 2:
-set $ws1 1:main
-set $ws2 2:web
-set $ws3 3
-set $ws4 4
+set $ws1 1:1-DEV
+set $ws2 2:2-WEB
+set $ws3 3:3-ZSH
+set $ws4 4:4-FILM
 set $ws5 5
 set $ws6 6
 set $ws7 7
@@ -194,8 +195,12 @@ bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 
 # Open applications on specific workspaces
-assign [class="Brave"] $ws2
 assign [class="phpstorm"] $ws1
+assign [class="code"] $ws1
+
+assign [class="Brave"] $ws2
+
+assign [class="vlc"] $ws4
 
 # Open specific applications in floating mode
 for_window [title="alsamixer"] floating enable border pixel 1
