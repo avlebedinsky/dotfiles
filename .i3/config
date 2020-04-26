@@ -69,6 +69,7 @@ bindsym $mod+F4 exec brave
 
 bindsym $mod+F5 exec phpstorm
 bindsym $mod+F6 exec code
+bindsym $mod+F7 exec figma-linux
 
 bindsym $mod+F9 exec terminal -e 'mocp'
 
@@ -160,7 +161,7 @@ set $ws2 2:2-WEB
 set $ws3 3:3-ZSH
 set $ws4 4:4-FILM
 set $ws5 5:5-LOAD
-set $ws6 6
+set $ws6 6:6-TEMP
 set $ws7 7
 set $ws8 8
 
